@@ -32,7 +32,7 @@ function populateShows(shows) {
              <img class="card-img-top" src= ${show.image}>
              <p class="card-text">${show.summary}</p>
            </div>
-           <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#episodeModal">Episodes</button>
+           <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#episodeModal">Episodes</button>
          </div>
        </div>
       `
